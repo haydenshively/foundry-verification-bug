@@ -1,0 +1,4 @@
+solmate/=core/lib/solmate/src/
+
+foundry-verification-bug-core/=core/src/
+foundry-verification-bug-periphery/=periphery/src/

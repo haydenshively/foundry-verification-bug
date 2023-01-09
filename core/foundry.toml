@@ -1,0 +1,21 @@
+[profile.default]
+
+src = 'src'
+test = 'test'
+libs = ['lib']
+
+out = '../build/core'
+cache_path = '../cache/core'
+
+via_ir = true
+optimizer = true
+optimizer_runs = 1000000
+gas_reports = []
+
+auto_detect_remappings = true
+
+[rpc_endpoints]
+goerli = "${GOERLI_RPC_URL}"
+
+[etherscan]
+goerli = { key = "${ETHERSCAN_API_KEY}" }
